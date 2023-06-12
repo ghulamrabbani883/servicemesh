@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lato", sans-serif;
+}
+
+p, span {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+table:nth-child(even) {
+  background-color: red;
+}/*# sourceMappingURL=index.min.css.map */
