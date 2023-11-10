@@ -54,7 +54,7 @@ const login = async (req, res) => {
       ),
       httpOnly: true,
     };
-    await res.cookie("jwtToken", token, options).json({
+    return res.cookie("jwtToken", token, options).json({
       success: true,
       message: "LoggedIn successfully",
       user: userExist,
